@@ -161,6 +161,15 @@ http://127.0.0.1:5000
 
 ---
 
+## Stuck Log
+
+A detailed development log is available in STUCK_LOG.md.
+
+Summary:
+- CSV merge: standardized column names and handled duplicates.
+- n8n workflow: resolved CSV parsing and database import issues.
+- Audio upload: fixed Flask file handling and metadata extraction.
+
 # Author
 
-Sneha Shivangi
+Sneha Shivangi`
