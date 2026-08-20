@@ -1,104 +1,166 @@
-ConsultBae AI Automation Assignment
-Overview
+# ConsultBae AI Automation Assignment
 
-This project contains solutions for the ConsultBae AI Automation Take-Home Assignment.
+## Overview
 
-Completed Tasks:
+This repository contains my solution for the **ConsultBae AI Automation Take-Home Assignment**.
 
-Task 1 - CSV Merge
-Task 2 - n8n Automation
-Task 3 - Audio Collection Web App
-Task 4 - Data Issues Report
-Tech Stack
-Python
-Flask
-SQLite
-SQLAlchemy
-HTML
-n8n
-Mutagen
-SoundFile
-Librosa
-Features
-CSV Merge
-Imported three CSV files
-Cleaned duplicate records
-Stored merged data into SQLite
-Automation
+The project includes:
 
-Built an n8n workflow that
+- CSV data merging and cleaning
+- Duplicate detection
+- SQLite database creation
+- n8n automation workflow
+- Flask audio submission web application
+- Automatic audio metadata extraction
+- Data quality report
 
-accepts new CSV
-checks duplicates
-stores data
+---
 
-Workflow JSON included.
+# Tech Stack
 
-Audio App
+- Python
+- Flask
+- SQLite
+- SQLAlchemy
+- HTML/CSS
+- n8n
+- Librosa
+- SoundFile
+- Pandas
 
-Users can
+---
 
-Enter Name
-Enter Phone
-Upload audio
+# Project Structure
 
-Automatically extracts
+```
+consultbae-assignment/
+│
+├── app.py
+├── models.py
+├── requirements.txt
+├── README.md
+│
+├── data/
+│   ├── source1_naukri_applicants.csv
+│   ├── source2_gig_workers.csv
+│   └── source3_cbnexus_contacts.csv
+│
+├── database/
+│   ├── people.db
+│   ├── consultbae.db
+│   ├── import_data.py
+│   ├── database.py
+│   ├── check_duplicates.py
+│   ├── merged_people.csv
+│   ├── duplicates.csv
+│   └── data_quality_report.csv
+│
+├── scripts/
+│   ├── clean_data.py
+│   ├── merge_data.py
+│   ├── inspect_data.py
+│   └── test_cleaning.py
+│
+├── templates/
+│
+└── uploads/
+```
 
-Duration
-Sample Rate
-Bitrate
-Loudness
+---
 
-Displays
+# Task 1 – CSV Merge
 
-Audio player
-Metadata
-Submission history
-Installation
-git clone <repo-url>
+Implemented a data pipeline that:
 
+- Imports all three CSV files
+- Cleans inconsistent records
+- Removes duplicate people
+- Merges data into a single dataset
+- Stores final records inside SQLite
 
-cd consultbae-assignment
+---
 
+# Task 2 – n8n Automation
 
+Created an n8n workflow that:
+
+- Accepts a new CSV
+- Checks duplicate entries
+- Imports cleaned records
+- Saves data into the database
+
+The workflow JSON file is included in the repository.
+
+---
+
+# Task 3 – Audio Collection Web App
+
+The Flask application allows users to:
+
+- Enter name
+- Enter phone number
+- Upload audio
+- Store submissions in the database
+
+For every upload the application automatically extracts:
+
+- Duration
+- Sample Rate
+- Bitrate
+- Loudness
+
+The application also provides a submissions page with:
+
+- Audio player
+- Duration
+- Sample rate
+- Bitrate
+- Loudness
+
+---
+
+# Task 4 – Data Issues Report
+
+The following data issues were identified:
+
+- Duplicate records
+- Missing values
+- Inconsistent phone numbers
+- Different name formats
+- Empty fields
+
+These were cleaned during preprocessing and documented in the project.
+
+---
+
+# Installation
+
+Clone the repository
+
+```bash
+git clone https://github.com/thatssneha123/consultbae-assignment.git
+```
+
+Install dependencies
+
+```bash
 pip install -r requirements.txt
+```
 
+Run the application
 
+```bash
 python app.py
+```
 
-Visit
+Open
 
+```
 http://127.0.0.1:5000
-Project Structure
-app.py
+```
 
+---
 
-models.py
+# Author
 
-
-templates/
-
-
-uploads/
-
-
-database/
-
-
-scripts/
-
-
-requirements.txt
-Data Issues Report
-
-See
-
-DATA_ISSUES_REPORT.md
-Stuck Log
-
-See
-
-STUCK_LOG.md
-Video
-
-Demo video included with submission.
+Sneha Shivangi
