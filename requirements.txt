@@ -1,0 +1,6 @@
+pandas
+sqlalchemy
+flask
+mutagen
+soundfile
+librosa

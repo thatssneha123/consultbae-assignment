@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Audio Submissions</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 30px; }
+        table { width: 100%; border-collapse: collapse; margin-top: 15px; }
+        th, td { border: 1px solid #ccc; padding: 10px; text-align: left; }
+        th { background-color: #f2f2f2; }
+        a { text-decoration: none; color: #007bff; }
+    </style>
+</head>
+<body>
+    <h2>Audio Submissions</h2>
+    <p><a href="/">&larr; Back to Upload</a></p>
+    {% if submissions %}
+    <table>
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Phone</th>
+                <th>Duration (s)</th>
+                <th>Sample Rate (Hz)</th>
+                <th>Bitrate (kbps)</th>
+                <th>Loudness (dB)</th>
+                <th>Audio Player</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for item in submissions %}
+            <tr>
+                <td>{{ item.id }}</td>
+                <td>{{ item.name }}</td>
+                <td>{{ item.phone }}</td>
+                <td>{{ item.duration }}</td>
+                <td>{{ item.sample_rate }}</td>
+                <td>{{ item.bitrate }}</td>
+                <td>{{ item.loudness }}</td>
+                <td>
+                    <audio controls src="/{{ item.audio_path }}"></audio>
+                </td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+    {% else %}
+    <p>No submissions found.</p>
+    {% endif %}
+</body>
+</html>

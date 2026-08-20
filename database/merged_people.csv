@@ -1,0 +1,43 @@
+full_name,email,phone,city,skills,source
+Tanvi Gupta,tanvi.gupta31@example.com,919000000254,Bengaluru,"n8n, LangChain, REST APIs, MongoDB, SQL",source1_naukri_applicants copy.csv
+Manish Reddy,manish.reddy73@example.com,9000000237,GURGAON,"Docker, Zapier, JavaScript",source1_naukri_applicants copy.csv
+Priya Singh,priya.singh61@mailtest.example.org,9000000287,GURGAON,"React, Zapier, n8n, MySQL, Python, SQL",source1_naukri_applicants copy.csv
+Vikram Saxena,vikram.saxena60@example.com,9000000113,GURGAON,"Selenium, Web Scraping, React, Docker, SQL, FastAPI",source1_naukri_applicants copy.csv
+Amit Agarwal,amit.agarwal3@mailtest.example.org,919000000288,pune,"SQL, Python, JavaScript, Docker",source1_naukri_applicants copy.csv
+Sahil Malhotra,sahil.malhotra1@example.in,919000000143,Noida,"FastAPI, Docker, MySQL, Zapier, Pandas, REST APIs",source1_naukri_applicants copy.csv
+Shreya Gupta,shreya.gupta85@example.com,9000000227,NOIDA,"Zapier, Web Scraping, Docker, n8n, Python",source1_naukri_applicants copy.csv
+Isha Chopra,isha.chopra95@mailtest.example.org,9000000138,PUNE,"React, JavaScript, MySQL",source1_naukri_applicants copy.csv
+Priya Nair,priya.nair70@example.com,919000000222,gurugram ,"Zapier, REST APIs, React, Python, n8n, Web Scraping",source1_naukri_applicants copy.csv
+Rohit Mishra,rohit.mishra70@mailtest.example.org,9000000167,Delhi,"Docker, Pandas, FastAPI, SQL, Zapier, MySQL",source1_naukri_applicants copy.csv
+Rahul Malhotra,rahul.malhotra69@mailtest.example.org,9000000260,new delhi,"MySQL, REST APIs, SQL, MongoDB, Selenium",source1_naukri_applicants copy.csv
+Rahul Jain,rahul.jain34@example.in,9000000114,Noida ,"Zapier, Selenium, Docker, Python",source1_naukri_applicants copy.csv
+Nikhil Malhotra,nikhil.malhotra41@example.in,9000000145,New Delhi,"FastAPI, JavaScript, Web Scraping, SQL, Python",source1_naukri_applicants copy.csv
+Karan Bhatia,karan.bhatia32@mailtest.example.org,919000000211,Noida ,"SQL, MongoDB, Selenium, Zapier, Web Scraping, JavaScript",source1_naukri_applicants copy.csv
+Ritu Sharma,ritu.sharma23@mailtest.example.org,9000000146,Noida ,"n8n, Web Scraping, MongoDB, SQL, React",source1_naukri_applicants copy.csv
+Arjun Mishra,arjun.mishra70@example.com,9000000106,Delhi,"React, Docker, JavaScript",source1_naukri_applicants copy.csv
+Meera Bhatia,meera.bhatia52@mailtest.example.org,9000000223,Delhi NCR,"LangChain, Docker, MySQL, Python, SQL, React",source1_naukri_applicants copy.csv
+Varun Jain,varun.jain29@example.com,9000000263,Pune,"n8n, Web Scraping, FastAPI, MySQL, Pandas, MongoDB",source1_naukri_applicants copy.csv
+Arjun Mehta,arjun.mehta9@example.in,9000000131,NOIDA,"SQL, Selenium, n8n",source1_naukri_applicants copy.csv
+Kavya Mehta,kavya.mehta7@example.com,919000000177,Bengaluru,"n8n, MongoDB, FastAPI, Pandas, React",source1_naukri_applicants copy.csv
+Sneha Chopra,sneha.chopra99@example.in,919000000162,pune,"Pandas, React, MySQL, JavaScript, SQL",source1_naukri_applicants copy.csv
+Deepak Mehta,deepak.mehta86@example.in,9000000116,NOIDA,"MySQL, MongoDB, n8n, LangChain, REST APIs, Selenium",source1_naukri_applicants copy.csv
+Pooja Gupta,pooja.gupta57@mailtest.example.org,9000000271,Noida,"Docker, MySQL, SQL, n8n, Selenium",source1_naukri_applicants copy.csv
+R. Verma,rohit.verma13@mailtest.example.org,9000000294,Bangalore,"Python, React, MongoDB",source1_naukri_applicants copy.csv
+Sneha Mishra,sneha.mishra14@mailtest.example.org,9000000229,pune,"MySQL, Docker, Selenium, Pandas",source1_naukri_applicants copy.csv
+Nikhil Chopra,alt.nikhil.chopra70@example.com,9000000103,NOIDA,"Pandas, SQL, n8n",source1_naukri_applicants copy.csv
+Priya Saxena,priya.saxena61@example.com,919000000231,Delhi,"Python, MySQL, Zapier, React",source1_naukri_applicants copy.csv
+Varun Saxena,varun.saxena21@example.in,9000000170,gurugram ,"MongoDB, Zapier, SQL, LangChain, MySQL, REST APIs",source1_naukri_applicants copy.csv
+Gaurav Mehta,gaurav.mehta79@mailtest.example.org,9000000133,Bengaluru,"REST APIs, SQL, Selenium, FastAPI",source1_naukri_applicants copy.csv
+Rohit Nair,rohit.nair32@mailtest.example.org,919000000268,Gurugram,"REST APIs, n8n, Web Scraping, Docker",source1_naukri_applicants copy.csv
+Deepak Nair,deepak.nair44@example.com,9000000296,bangalore,"React, n8n, MongoDB, Pandas",source1_naukri_applicants copy.csv
+Rahul Chopra,rahul.chopra70@example.com,9000000137,NOIDA,"Zapier, Docker, Python",source1_naukri_applicants copy.csv
+Deepak Singh,deepak.singh36@mailtest.example.org,9000000202,bangalore,"Web Scraping, FastAPI, Docker, React",source1_naukri_applicants copy.csv
+Amit Reddy,amit.reddy9@mailtest.example.org,9000000165,Delhi NCR,"React, MySQL, LangChain",source1_naukri_applicants copy.csv
+Nikhil Chopra,nikhil.chopra70@example.com,9000000103,NOIDA,"Pandas, SQL, n8n",source1_naukri_applicants copy.csv
+Tanvi Agarwal,tanvi.agarwal97@example.in,919000000148,PUNE,"MongoDB, REST APIs, FastAPI, Web Scraping",source1_naukri_applicants copy.csv
+Nikhil Mehta,nikhil.mehta5@example.com,9000000104,PUNE,"Docker, LangChain, Zapier, Selenium, Python, React",source1_naukri_applicants copy.csv
+Isha Kapoor,isha.kapoor54@example.com,919000000295,new delhi,"FastAPI, Python, JavaScript, Selenium, React, MySQL",source1_naukri_applicants copy.csv
+Arjun Bhatia,arjun.bhatia14@example.com,9000000212,new delhi,"Zapier, REST APIs, SQL, FastAPI, Pandas, Web Scraping",source1_naukri_applicants copy.csv
+Isha Sharma,isha.sharma15@example.com,919000000259,Delhi,"n8n, Python, Selenium, JavaScript, REST APIs, MongoDB",source1_naukri_applicants copy.csv
+Neha Bhatia,neha.bhatia60@mailtest.example.org,9000000273,Pune,"FastAPI, Zapier, JavaScript, Selenium",source1_naukri_applicants copy.csv
+,,,,,source2_gig_workers.csv
